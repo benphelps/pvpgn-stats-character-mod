@@ -1,0 +1,155 @@
+body {
+	
+}
+
+#char-skills {
+	width: 318px;
+	height: 432px;
+	background: transparent url('images/skills/skills-bg.png') 0 0 no-repeat;
+	position: relative;
+	padding: 2px 0 0 2px;
+	float: left;
+}
+
+/* SKILL TREES */
+
+.Amazon div { background: transparent url('images/skills/skills-Amazon.png') 0 0 no-repeat; }
+.Assassin div  { background: transparent url('images/skills/skills-Assassin.png') 0 0 no-repeat; }
+.Necromancer div { background: transparent url('images/skills/skills-Necromancer.png') 0 0 no-repeat; }
+.Barbarian div { background: transparent url('images/skills/skills-Barbarian.png') 0 0 no-repeat; }
+.Paladin div { background: transparent url('images/skills/skills-Paladin.png') 0 0 no-repeat; }
+.Sorceress div { background: transparent url('images/skills/skills-Sorceress.png') 0 0 no-repeat; }
+.Druid div { background: transparent url('images/skills/skills-Druid.png') 0 0 no-repeat; }
+
+.char-skilltab {
+	width: 220px;
+	height: 431px;
+	background-color: red;
+	position: relative;
+}
+
+#char-skilltab1 { background-position: 0 0; }
+#char-skilltab2 { background-position: -220px 0; }
+#char-skilltab3 { background-position: -440px 0; }
+
+/* SKILL TABS */
+
+.Amazon ul li a { background: transparent url('images/skills/menu-Amazon.png') 0 0 no-repeat; }
+.Assassin ul li a { background: transparent url('images/skills/menu-Assassin.png') 0 0 no-repeat; }
+.Necromancer ul li a { background: transparent url('images/skills/menu-Necromancer.png') 0 0 no-repeat; }
+.Barbarian ul li a { background: transparent url('images/skills/menu-Barbarian.png') 0 0 no-repeat; }
+.Paladin ul li a { background: transparent url('images/skills/menu-Paladin.png') 0 0 no-repeat; }
+.Sorceress ul li a { background: transparent url('images/skills/menu-Sorceress.png') 0 0 no-repeat; }
+.Druid ul li a { background: transparent url('images/skills/menu-Druid.png') 0 0 no-repeat; }
+
+#char-skills ul {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	bottom: 1px;
+	right: 2px;
+	height: 324px;
+	list-style-type: none;
+}
+#char-skills ul li {
+	height: 108px;
+}
+
+ul li a {
+	display: block;
+	width: 96px;
+	height: 108px;
+	outline: 0;
+	text-indent: -9999px;
+}
+
+ul li a.tab1 { background-position: 0 0; }
+ul li a.tab2 { background-position: 0 -108px; }
+ul li a.tab3 { background-position: 0 -216px; }
+
+ul li a.tab1.selected { background-position: -96px 0; }
+ul li a.tab2.selected { background-position: -96px -108px; }
+ul li a.tab3.selected { background-position: -96px -216px; }
+
+/*test*/
+span {
+	width: 12px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+
+}
+
+.enabled-skill, .disabled-skill {
+	position: absolute;
+	text-align: center;
+}
+
+span.disabled-skill {
+	background-color: #000;
+	opacity: 0.50;
+	width: 50px;
+	height: 50px;
+}
+
+#char-skills-left {
+	position: absolute;
+	right: 35px;
+	top: 66px;
+	display: block;
+	width: 25px;
+	height: 15px;
+	text-align: center;
+}
+
+/* enabled */
+
+.esc1r1 { top: 59px; left: 57px; }
+.esc2r1 { top: 59px; left: 126px; }
+.esc3r1 { top: 59px; left: 195px; }
+
+.esc1r2 { top: 126px; left: 57px; }
+.esc2r2 { top: 126px; left: 126px; }
+.esc3r2 { top: 126px; left: 195px; }
+
+.esc1r3 { top: 195px; left: 57px; }
+.esc2r3 { top: 195px; left: 126px; }
+.esc3r3 { top: 195px; left: 195px; }
+
+.esc1r4 { top: 264px; left: 57px; }
+.esc2r4 { top: 264px; left: 126px; }
+.esc3r4 { top: 264px; left: 195px; }
+
+.esc1r5 { top: 332px; left: 57px; }
+.esc2r5 { top: 332px; left: 126px; }
+.esc3r5 { top: 332px; left: 195px; }
+
+.esc1r6 { top: 400px; left: 57px; }
+.esc2r6 { top: 400px; left: 126px; }
+.esc3r6 { top: 400px; left: 195px; }
+
+/* disabled */
+
+.dsc1r1 { top: 12px; left: 11px; }
+.dsc2r1 { top: 12px; left: 80px; }
+.dsc3r1 { top: 12px; left: 150px; }
+
+.dsc1r2 { top: 80px; left: 11px; }
+.dsc2r2 { top: 80px; left: 80px; }
+.dsc3r2 { top: 80px; left: 150px; }
+
+.dsc1r3 { top: 148px; left: 11px; }
+.dsc2r3 { top: 148px; left: 80px; }
+.dsc3r3 { top: 148px; left: 150px; }
+
+.dsc1r4 { top: 216px; left: 11px; }
+.dsc2r4 { top: 216px; left: 80px; }
+.dsc3r4 { top: 216px; left: 150px; }
+
+.dsc1r5 { top: 285px; left: 11px; }
+.dsc2r5 { top: 285px; left: 80px; }
+.dsc3r5 { top: 285px; left: 150px; }
+
+.dsc1r6 { top: 353px; left: 11px; }
+.dsc2r6 { top: 353px; left: 80px; }
+.dsc3r6 { top: 353px; left: 150px; }

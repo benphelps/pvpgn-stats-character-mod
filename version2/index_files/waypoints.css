@@ -1,0 +1,88 @@
+#waypoints-container {
+	width: 960px;
+	height: 430px;
+	margin: 0 auto;
+}
+#waypoints-container p {
+	margin: 0;
+	padding: 0;
+	height: 36px;
+}
+#waypoints-container ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 2px 5px 26px 5px;
+	height: 28px;
+}
+#waypoints-container ul li {
+	float: left;
+	width: 62px;
+	height: 28px;
+	display: block;
+}
+#waypoints-container ul li a {
+	width: 62px;
+	height: 28px;
+	background-color: transparent;
+	display: block;
+	text-indent: -9999px;
+	outline: 0;
+	cursor: hand;
+}
+
+#waypoints-normal, #waypoints-nightmare, #waypoints-hell {
+	width: 320px;
+	height: 430px;
+	float: left;
+}
+
+#waypoints-normal {
+	background: #000 url('../../images/waypoints/normal.png') 0 0 no-repeat;
+}
+#waypoints-nightmare {
+	background: #000 url('../../images/waypoints/nightmare.png') 0 0 no-repeat;
+}
+#waypoints-hell {
+	background: #000 url('../../images/waypoints/hell.png') 0 0 no-repeat;
+}
+
+.wpc {
+	padding: 0 14px 0 15px;
+}
+
+/* waypoints menu */
+#waypoints-container ul.idTabs li a { background-image: url('../../images/waypoints/menu.png') }
+ul.idTabs li a.act1 { background-position: 0 0; }
+ul.idTabs li a.act1.selected { background-position: 0 28px; }
+ul.idTabs li a.act2 { background-position: -62px 0; }
+ul.idTabs li a.act2.selected { background-position: -62px 28px; }
+ul.idTabs li a.act3 { background-position: -124px 0; }
+ul.idTabs li a.act3.selected { background-position: -124px 28px; }
+ul.idTabs li a.act4 { background-position: -186px 0; }
+ul.idTabs li a.act4.selected { background-position: -186px 28px; }
+ul.idTabs li a.act5 { background-position: -248px 0; }
+ul.idTabs li a.act5.selected { background-position: -248px 28px; }
+
+/* waypoints disabled - normal, nightmare, hell */
+#wnoa1, #wnma1, #wha1 { background: transparent url('../../images/waypoints/wa1off.png') 0 0 no-repeat; }
+#wnoa2, #wnma2, #wha2 { background: transparent url('../../images/waypoints/wa2off.png') 0 0 no-repeat; }
+#wnoa3, #wnma3, #wha3 { background: transparent url('../../images/waypoints/wa3off.png') 0 0 no-repeat; }
+#wnoa4, #wnma4, #wha4 { background: transparent url('../../images/waypoints/wa4off.png') 0 0 no-repeat; }
+#wnoa5, #wnma5, #wha5 { background: transparent url('../../images/waypoints/wa5off.png') 0 0 no-repeat; }
+
+/* waypoints enabled - normal, nightmare, hell */
+.wact1 .enabled { background: transparent url('../../images/waypoints/wa1on.png') 0 0 no-repeat; }
+.wact2 .enabled { background: transparent url('../../images/waypoints/wa2on.png') 0 0 no-repeat; }
+.wact3 .enabled { background: transparent url('../../images/waypoints/wa3on.png') 0 0 no-repeat; }
+.wact4 .enabled { background: transparent url('../../images/waypoints/wa4on.png') 0 0 no-repeat; }
+.wact5 .enabled { background: transparent url('../../images/waypoints/wa5on.png') 0 0 no-repeat; }
+
+.wact1 .wp1, .wact2 .wp1, .wact3 .wp1, .wact4 .wp1, .wact5 .wp1  { background-position: 0 0; }
+.wact1 .wp2, .wact2 .wp2, .wact3 .wp2, .wact4 .wp2, .wact5 .wp2 { background-position: 0 -36px; }
+.wact1 .wp3, .wact2 .wp3, .wact3 .wp3, .wact4 .wp3, .wact5 .wp3{ background-position: 0 -72px; }
+.wact1 .wp4, .wact2 .wp4, .wact3 .wp4, .wact4 .wp4, .wact5 .wp4 { background-position: 0 -108px; }
+.wact1 .wp5, .wact2 .wp5, .wact3 .wp5, .wact4 .wp5, .wact5 .wp5 { background-position: 0 -144px; }
+.wact1 .wp6, .wact2 .wp6, .wact3 .wp6, .wact4 .wp6, .wact5 .wp6 { background-position: 0 -180px; }
+.wact1 .wp7, .wact2 .wp7, .wact3 .wp7, .wact4 .wp7, .wact5 .wp7 { background-position: 0 -216px; }
+.wact1 .wp8, .wact2 .wp8, .wact3 .wp8, .wact4 .wp8, .wact5 .wp8 { background-position: 0 -252px; }
+.wact1 .wp9, .wact2 .wp9, .wact3 .wp9, .wact4 .wp9, .wact5 .wp9 { background-position: 0 -288px; }

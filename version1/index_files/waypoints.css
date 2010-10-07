@@ -1,0 +1,117 @@
+#waypoints-container {
+	width: 960px;
+	height: 430px;
+	margin: 0 auto;
+}
+#waypoints-container p {
+	margin: 0;
+	padding: 0;
+	height: 36px;
+}
+#waypoints-container ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 2px 5px 26px 5px;
+	height: 28px;
+}
+#waypoints-container ul li {
+	float: left;
+	width: 62px;
+	height: 28px;
+	display: block;
+}
+#waypoints-container ul li a {
+	width: 62px;
+	height: 28px;
+	background-color: transparent;
+	display: block;
+	text-indent: -9999px;
+	outline: 0;
+	cursor: hand;
+}
+
+#waypoints-normal, #waypoints-nightmare, #waypoints-hell {
+	width: 320px;
+	height: 430px;
+	float: left;
+}
+
+#waypoints-normal {
+	background: #000 url('../../images/waypoints/normal.png') 0 0 no-repeat;
+}
+#waypoints-nightmare {
+	background: #000 url('../../images/waypoints/nightmare.png') 0 0 no-repeat;
+}
+#waypoints-hell {
+	background: #000 url('../../images/waypoints/hell.png') 0 0 no-repeat;
+}
+
+.wpc {
+	padding: 0 14px 0 15px;
+}
+
+/* waypoints menu - selected */
+#wmnoa1.selected, #wmnma1.selected, #wmha1.selected { background-image: url('../../images/waypoints/wma1.png'); }
+#wmnoa2.selected, #wmnma2.selected, #wmha2.selected { background-image: url('../../images/waypoints/wma2.png'); }
+#wmnoa3.selected, #wmnma3.selected, #wmha3.selected { background-image: url('../../images/waypoints/wma3.png'); }
+#wmnoa4.selected, #wmnma4.selected, #wmha4.selected { background-image: url('../../images/waypoints/wma4.png'); }
+#wmnoa5.selected, #wmnma5.selected, #wmha5.selected { background-image: url('../../images/waypoints/wma5.png'); }
+
+/* waypoints enabled - normal, nightmare, hell */
+#wnoa1 p.enabled, #wnma1 p.enabled, #wha1 p.enabled { background: transparent url('../../images/waypoints/wa1on.png') 0 0 no-repeat; }
+#wnoa2 p.enabled, #wnma2 p.enabled, #wha2 p.enabled { background: transparent url('../../images/waypoints/wa2on.png') 0 0 no-repeat; }
+#wnoa3 p.enabled, #wnma3 p.enabled, #wha3 p.enabled { background: transparent url('../../images/waypoints/wa3on.png') 0 0 no-repeat; }
+#wnoa4 p.enabled, #wnma4 p.enabled, #wha4 p.enabled { background: transparent url('../../images/waypoints/wa4on.png') 0 0 no-repeat; }
+#wnoa5 p.enabled, #wnma5 p.enabled, #wha5 p.enabled { background: transparent url('../../images/waypoints/wa5on.png') 0 0 no-repeat; }
+
+/* waypoints disabled - normal, nightmare, hell */
+#wnoa1, #wnma1, #wha1 { background: transparent url('../../images/waypoints/wa1off.png') 0 0 no-repeat; }
+#wnoa2, #wnma2, #wha2 { background: transparent url('../../images/waypoints/wa2off.png') 0 0 no-repeat; }
+#wnoa3, #wnma3, #wha3 { background: transparent url('../../images/waypoints/wa3off.png') 0 0 no-repeat; }
+#wnoa4, #wnma4, #wha4 { background: transparent url('../../images/waypoints/wa4off.png') 0 0 no-repeat; }
+#wnoa5, #wnma5, #wha5 { background: transparent url('../../images/waypoints/wa5off.png') 0 0 no-repeat; }
+
+/* waypoint 1 normal, nightmare, hell */
+#wnoa1 #wca1c0, #wnoa2 #wca2c9, #wnoa3 #wca3c18, #wnoa4 #wca4c27, #wnoa5 #wca5c30,
+#wnma1 #wca1c0, #wnma2 #wca2c9, #wnma3 #wca3c18, #wnma4 #wca4c27, #wnma5 #wca5c30,
+#wha1 #wha1c0, #wha2 #wca2c9, #wha3 #wca3c18, #wha4 #wca4c27, #wha5 #wca5c30 { background-position: 0 0; }
+
+/* waypoint 2 normal, nightmare, hell */
+#wnoa1 #wca1c1, #wnoa2 #wca2c10, #wnoa3 #wca3c19, #wnoa4 #wca4c28, #wnoa5 #wca5c31,
+#wnma1 #wca1c1, #wnma2 #wca2c10, #wnma3 #wca3c19, #wnma4 #wca4c28, #wnma5 #wca5c31,
+#wha1 #wca1c1, #wha2 #wca2c10, #wha3 #wca3c19, #wha4 #wca4c28, #wha5 #wca5c31 { background-position: 0 -36px; }
+
+/* waypoint 3 normal, nightmare, hell */
+#wnoa1 #wca1c2, #wnoa2 #wca2c11, #wnoa3 #wca3c20, #wnoa4 #wca4c29, #wnoa5 #wca5c32,
+#wnma1 #wca1c2, #wnma2 #wca2c11, #wnma3 #wca3c20, #wnma4 #wca4c29, #wnma5 #wca5c32,
+#wha1 #wca1c2, #wha2 #wca2c11, #wha3 #wca3c20, #wha4 #wca4c29, #wha5 #wca5c32 { background-position: 0 -72px; }
+
+/* waypoint 3 normal, nightmare, hell */
+#wnoa1 #wca1c3, #wnoa2 #wca2c12, #wnoa3 #wca3c21, #wnoa5 #wca5c33,
+#wnma1 #wca1c3, #wnma2 #wca2c12, #wnma3 #wca3c21, #wnma5 #wca5c33,
+#wha1 #wca1c3, #wha2 #wca2c12, #wha3 #wca3c21, #wha5 #wca5c33 { background-position: 0 -108px; }
+
+/* waypoint 4 normal, nightmare, hell */
+#wnoa1 #wca1c4, #wnoa2 #wca2c13, #wnoa3 #wca3c22, #wnoa5 #wca5c34,
+#wnma1 #wca1c4, #wnma2 #wca2c13, #wnma3 #wca3c22, #wnma5 #wca5c34,
+#wha1 #wca1c4, #wha2 #wca2c13, #wha3 #wca3c22, #wha5 #wca5c34 { background-position: 0 -144px; }
+
+/* waypoint 5 normal, nightmare, hell */
+#wnoa1 #wca1c5, #wnoa2 #wca2c14, #wnoa3 #wca3c23, #wnoa5 #wca5c35,
+#wnma1 #wca1c5, #wnma2 #wca2c14, #wnma3 #wca3c23, #wnma5 #wca5c35,
+#wha1 #wca1c5, #wha2 #wca2c14, #wha3 #wca3c23, #wha5 #wca5c35 { background-position: 0 -180px; }
+
+/* waypoint 6 normal, nightmare, hell */
+#wnoa1 #wca1c6, #wnoa2 #wca2c15, #wnoa3 #wca3c24, #wnoa5 #wca5c36,
+#wnma1 #wca1c6, #wnma2 #wca2c15, #wnma3 #wca3c24, #wnma5 #wca5c36,
+#wha1 #wca1c6, #wha2 #wca2c15, #wha3 #wca3c24, #wha5 #wca5c36 { background-position: 0 -216px; }
+
+/* waypoint 7 normal, nightmare, hell */
+#wnoa1 #wca1c7, #wnoa2 #wca2c16, #wnoa3 #wca3c25, #wnoa5 #wca5c37,
+#wnma1 #wca1c7, #wnma2 #wca2c16, #wnma3 #wca3c25, #wnma5 #wca5c37,
+#wha1 #wca1c7, #wha2 #wca2c16, #wha3 #wca3c25, #wha5 #wca5c37 { background-position: 0 -252px; }
+
+/* waypoint 8 normal, nightmare, hell */
+#wnoa1 #wca1c8, #wnoa2 #wca2c17, #wnoa3 #wca3c26, #wnoa5 #wca5c38,
+#wnma1 #wca1c8, #wnma2 #wca2c17, #wnma3 #wca3c26, #wnma5 #wca5c38,
+#wha1 #wca1c8, #wha2 #wca2c17, #wha3 #wca3c26, #wha5 #wca5c38 { background-position: 0 -288px; }

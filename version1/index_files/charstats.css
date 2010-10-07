@@ -1,0 +1,136 @@
+#cstats {
+	width: 685px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+#charstats, #charimage {
+	float: left;
+	position: relative;
+}
+
+#charstats {
+	width: 322px;
+	height: 432px;
+	background: transparent url('../../images/stats/stats.png') 50% 50% no-repeat;
+	margin-right: 40px;
+}
+
+#charimage {
+	width: 322px;
+	height: 432px;
+}
+
+#charimage.Amazon { background: transparent url('../../images/stats/Amazon.png') 50% 50% no-repeat; }
+#charimage.Assassin { background: transparent url('../../images/stats/Assassin.png') 50% 50% no-repeat; }
+#charimage.Necromancer { background: transparent url('../../images/stats/Necromancer.png') 50% 50% no-repeat; }
+#charimage.Barbarian { background: transparent url('../../images/stats/Barbarian.png') 50% 50% no-repeat; }
+#charimage.Paladin { background: transparent url('../../images/stats/Paladin.png') 50% 50% no-repeat; }
+#charimage.Sorceress { background: transparent url('../../images/stats/Sorceress.png') 50% 50% no-repeat; }
+#charimage.Druid { background: transparent url('../../images/stats/Druid.png') 50% 50% no-repeat; }
+
+#charstats span {
+	position: absolute;
+	color: #FFF;
+	display: block;
+	text-align: center;
+	padding-top: 2px;
+	height: 13px;
+	font-size: 9px;
+}
+#charname {
+	top: 11px;
+	left: 50px;
+	width: 110px;
+}
+#charclass {
+	top: 11px;
+	left: 215px;
+	width: 80px;
+}
+#charlevel {
+	top: 46px;
+	left: 22px;
+	width: 26px;
+}
+#charexp {
+	top: 46px;
+	left: 76px;
+	width: 100px;
+}
+#charstr {
+	top: 85px;
+	left: 80px;
+	width: 36px;
+}
+#chardex {
+	top: 147px;
+	left: 80px;
+	width: 36px;
+}
+#charvit {
+	top: 233px;
+	left: 80px;
+	width: 36px;
+}
+#charene {
+	top: 295px;
+	left: 80px;
+	width: 36px;
+}
+#charclife {
+	top: 109px;
+	left: 235px;
+	width: 36px;
+}
+#charmlife {
+	top: 109px;
+	left: 275px;
+	width: 36px;
+}
+#charcmana {
+	top: 133px;
+	left: 235px;
+	width: 36px;
+}
+#charmmana {
+	top: 133px;
+	left: 275px;
+	width: 36px;
+}
+#charcstam {
+	top: 85px;
+	left: 235px;
+	width: 36px;
+}
+#charmstam {
+	top: 85px;
+	left: 275px;
+	width: 36px;
+}
+
+#charstp {
+	top: 347px;
+	left: 94px;
+	width: 38px;
+}
+
+#charskp {
+	top: 371px;
+	left: 94px;
+	width: 38px;
+}
+
+#charsg {
+	top: 157px;
+	left: 235px;
+	width: 76px;
+	height: 13px;
+}
+
+#charpg {
+	top: 181px;
+	left: 235px;
+	width: 76px;
+	height: 13px;
+}
